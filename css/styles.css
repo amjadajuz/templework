@@ -1,16 +1,20 @@
 
 /*---------nav------------*/
 
-nav
+.nav a:hover
 {
     /* background-image:linear-gradient(rgb(204, 204, 204),rgb(255, 255, 255),rgb(150, 150, 150)) ; */
+    float: right;
+    justify-content: space-between;
     background-color: #fff;
-    color: rgb(27, 0, 0);
+    color: rgb(161, 123, 123);
 }
 .nav-item
 {
     color: #fff;
 }
+
+
 
 /*---------------------------*/
 
@@ -20,7 +24,7 @@ nav
 .sImage
 {
     width: 100vw;
-    max-height: 75vh;
+    max-height: 100vh;
 }
 .captions
 {
@@ -56,13 +60,11 @@ nav
 
 .cont1
 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 10vh;
     margin-bottom: 10vh;
     text-align: center;
 }
-
-
-
 .cont2
 {
     font-family: Tahoma;
@@ -123,5 +125,6 @@ footer i
     margin-right: 1.5vw;
     margin-top: 1vw;
 }
+
 
 /*--------------------------------*/
