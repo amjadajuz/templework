@@ -29,25 +29,28 @@ nav
     text-align: center;
     max-width: 30vw;
     border-radius: 15px;
-   
+    font-size: 20px;
 }
 .carousel-caption h3
 {
-    background:rgb(197, 70, 70);
-    max-width: 9vw;
+    background:rgba(209, 102, 102, 0.4);
+    font-size: 2.6vh;
+    max-width: 30vw;
     padding-left: 2px;
-    padding-right: 2px;
-    border-radius: 8px;
+    padding-right: 4px;
+    border-radius: 2px;
 }
 .carousel-caption
 {
-    padding-top: 35vh;
-    padding-bottom: 35vh;
+    max-width: 12vw;
+    padding-top: 15vw;
+    padding-bottom: 15vw;
     background-image: linear-gradient(90deg,rgb(0, 0, 0),rgba(255, 255, 255,0));
 }
 .carousel-caption p
 {
-    font-size: 20px;
+    top:-20vh;
+    font-size: 1.5vw;
 }
 /*-----------*/
 
@@ -58,8 +61,11 @@ nav
     text-align: center;
 }
 
+
+
 .cont2
 {
+    font-family: Tahoma;
     margin-top: 10vh;
     margin-bottom: 10vh;
     background: rgb(123, 130, 141);
@@ -67,6 +73,27 @@ nav
     border-radius: 15px;
     color: ghostwhite;
 }
+.cont3
+{
+    font-family: Tahoma;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    background: rgba(77, 111, 165,.2);
+    padding:2vh;
+    border-radius: 15px;
+    color: rgb(23, 23, 31);
+}
+.cont4
+{
+    font-family: Tahoma;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    background: rgb(123, 130, 141);
+    padding:2vh;
+    border-radius: 15px;
+    color: ghostwhite;
+}
+
 
 /*---------footer section----------*/
 footer
