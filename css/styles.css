@@ -8,6 +8,10 @@ html,body
     overflow-x: hidden !important;
     position: relative;
 }
+body
+{
+    background-image: linear-gradient(#fff,#fff,rgb(172, 172, 172));
+}
 /*---------nav------------*/
 nav
 {
@@ -74,7 +78,9 @@ nav a
     
 }
 
-/*-----------------------------*/
+
+
+/*--------------------------------------*/
 
 .cont1
 {
@@ -82,43 +88,96 @@ nav a
     margin-top: 10vh;
     margin-bottom: 10vh;
     text-align: center;
+
 }
-.cont2
+.cont1 h1
 {
-    font-family: Tahoma;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
-    background: rgb(123, 130, 141);
-    padding:2vh;
-    border-radius: 15px;
-    color: ghostwhite;
+    padding: 22px;
+    border-bottom: 4px solid rgb(59, 0, 0);
+    margin-bottom:2vh ;
 }
+/*-------------------------------------*/
+
+.cont2 img
+{
+    border: 8px solid rgb(248, 223, 0);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    
+}
+.content2
+{
+    background-image: linear-gradient(90deg,rgb(248, 223, 0),rgb(255, 237, 74));
+    padding:2vh;
+    position: relative;
+    top: 2vh;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+
+/*---------------------------------------*/
 .cont3
 {
-    font-family: Tahoma;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
-    background: rgba(77, 111, 165,.2);
-    padding:2vh;
-    border-radius: 15px;
-    color: rgb(23, 23, 31);
+    margin-top: 3vh;
 }
+.cont3 img
+{
+    border: 8px solid #fff;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    
+}
+.content3
+{
+    background-image: linear-gradient(90deg,rgb(255, 255, 255),rgb(175, 175, 175));
+    padding:2vh;
+    position: relative;
+    top: 2vh;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border-top-left-radius: 20px;
+}
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+
+
+/*---------------------------------------*/
 .cont4
 {
-    font-family: Tahoma;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
-    background: rgb(123, 130, 141);
-    padding:2vh;
-    border-radius: 15px;
-    color: ghostwhite;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
 }
+.cont4 img
+{
+    border: 8px solid #fff;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    
+}
+.content4
+{
+    background-image: linear-gradient(90deg,rgb(255, 255, 255),rgb(255, 255, 255));
+    padding:2vh;
+    position: relative;
+    top: 2vh;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+
+
+/*----------------------------------------*/
 
 
 /*---------footer section----------*/
 footer
 {
-    background-image:linear-gradient(#222,rgb(44, 0, 0),#111) ;
+    background-color: rgba(0,0,0,0.3);
     color: #fff;
     padding:30px;
     box-shadow: 0 0 10px 0px rgba(0,0,0,0.18);
@@ -149,14 +208,15 @@ footer i
 
 
 /*-------map------------------------------*/
+.contact h1
+{
+    margin-top: 15vh;
+}
 .map
 {
     border: 2px solid #fff;
-    padding: 12vw;
-    margin-top: 10vh;
 }
 
-/*-------------------------------------*/
 /*-------------about-----------------*/
 .aboutus{
     font-size: large;
