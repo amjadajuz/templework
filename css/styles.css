@@ -44,13 +44,13 @@ nav a
 .carousel-caption h3
 {
     background:rgba(209, 102, 102, 1);
-    font-size:3.5vh;
+    font-size:3vh;
     width: 15vw;
     padding: 0.6vw;
     padding-left: 2vw;
     padding-right: 2vw;
     border-radius: 20px;
-    margin-left: 1vw;
+    margin-left: 3vw;
   
     
 }
@@ -64,9 +64,9 @@ nav a
 }
 .carousel-caption p
 {
-    margin-left: 1vw;
+    margin-left: 3vw;
     top:-20vh;
-    font-size: 2.5vh;
+    font-size: 2vh;
 }
 /*-----------*/
 
