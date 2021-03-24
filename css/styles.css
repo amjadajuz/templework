@@ -37,7 +37,7 @@ nav a
 {
     background:rgba(209, 102, 102, 1);
     font-size: 13ev;
-    width: 15vw;
+    max-width: 35vw;
     padding: 0.6vw;
     padding-left: 2vw;
     padding-right: 2vw;
@@ -57,19 +57,20 @@ nav a
     z-index: 1;
     top: 0%;
     max-width: 30vw;
-    height: 80vh;
+    max-height: 80vh;
+    padding-top: 15vw;
+    padding-bottom: 15vw;
 }
 .quotes h1
 {
-    margin-top: 20vh;
     text-align: center;
-    
+    font-size: 15ev;
 }
 .quotes p
 {
     text-align: center;
     margin-left: 2vw;
-    font-size: 20px;
+    font-size: 9ev;
     
 }
 
